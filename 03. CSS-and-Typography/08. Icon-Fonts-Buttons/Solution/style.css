@@ -1,0 +1,22 @@
+@import url("https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css");
+
+p:first-child {
+    background-color: #008000;
+    display: inline-block;
+    border-radius: 5px;
+}
+
+p:last-child {
+    background-color: #ff8c00;
+    display: inline-block;
+    border-radius: 5px;
+}
+
+a {
+    display: inline-block;
+    margin: 0 auto;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    padding: 10px 20px;
+}
