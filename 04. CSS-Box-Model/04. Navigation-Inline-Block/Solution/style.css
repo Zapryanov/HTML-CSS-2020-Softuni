@@ -1,0 +1,38 @@
+html {
+    font-family: Helvetica, sans-serif;
+}
+
+body {
+    margin: 50px auto;
+    width: 90%;
+}
+
+header h1 {
+    text-transform: uppercase;
+}
+
+ul {
+    list-style: none;  
+    margin-left: 100px;  
+}
+
+h1,
+nav,
+nav ul li {
+    display: inline-block;
+}
+
+nav ul li {
+    margin-left: 30px;
+}
+
+ul li a {
+    color: green;
+    text-decoration: none;
+    text-transform: capitalize;
+}
+
+hr {
+    height: 1px;
+    background-color: black
+}
