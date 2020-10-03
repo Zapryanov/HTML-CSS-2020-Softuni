@@ -1,0 +1,100 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(238, 238, 238);
+    margin: 100px auto;
+    position: relative;
+    width: 90%;
+}
+
+img {
+    background-color: rgb(255, 255, 255);
+    border: 2px solid black;
+    box-shadow: 0 0 20px 3px rgba(0, 0, 0, 0.25);
+    padding: 5px;
+}
+
+h1,
+h2,
+h3,
+blockquote {
+    font-family: Georgia, serif;
+}
+
+blockquote {
+    border-left: 3px solid #cccccc;
+    font-style: italic;
+    float: right;
+    margin: 0;
+    padding: 0 0 30px 30px;
+    width: 50%;
+}
+
+.half-paragraph {
+    padding-right: 30px;
+    width: 50%;
+}
+
+blockquote p {
+    margin-top: 0;
+}
+
+.clear {
+    clear: both;
+}
+
+h1,
+h2,
+h3 {
+    font-size: 1.2em;
+}
+
+header,
+main,
+aside {
+    float: left;
+    position: relative;
+}
+
+header {
+    border-bottom: 1px solid black;
+    width: 100%;
+}
+
+header p {
+    font-size: 28px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+main {
+    width: 75%;
+}
+
+main .first-img {
+    float: right;
+    margin: 0 0 20px 20px;
+}
+
+main .second-img {
+    float: left;
+    margin: 0 20px 20px 0;
+}
+
+aside {
+    float: left;
+    padding-left: 50px;
+    width: 25%;
+}
+
+aside nav ul li {
+    list-style: none;
+}
+
+aside nav ul li a {
+    color: green;
+    text-decoration: none;
+
+}
