@@ -1,0 +1,39 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css");
+
+body {
+    background-color: #eeeeee;
+}
+
+button,
+a {
+    cursor: pointer;
+    outline: none;
+}
+
+a.button,
+button {
+    border: 2px solid rgb(51, 51, 51);
+    border-radius: 32px;
+    color: rgb(51, 51, 51);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px;
+    padding: 16px 24px;
+    text-decoration: none;
+}
+
+a.fill,
+button.fill {
+    background-color: rgb(51, 51, 51);
+    color: rgb(251, 251, 251);
+}
+
+button.hover:hover {
+    border-color: rgb(0, 102, 0);
+    color: rgb(0, 102, 0);
+}
+
+button.fill.hover:hover {
+    background-color: rgb(0, 102, 0);
+    border-color: rgb(0, 102, 0);
+    color: rgb(251, 251, 251);
+}
