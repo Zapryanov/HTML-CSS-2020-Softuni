@@ -1,0 +1,44 @@
+@import url("https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css");
+
+ul {
+    display: inline-block;
+}
+
+li {
+    display: inline-block;
+    list-style: none;
+}
+
+a {
+    background-color: lightgray;
+    border-radius: 50%;
+    display: inline-block;
+    height: 35px;
+    text-align: center;
+    width: 35px;
+}
+
+.fa {
+    color: black;
+    margin: 10px;
+}
+
+.fa-facebook:hover {
+    color: blue;
+}
+
+.fa-twitter:hover {
+    color: rgb(40, 95, 245);
+}
+
+.fa-google-plus-square:hover {
+    color: red;
+}
+
+.fa-linkedin:hover {
+    color: rgb(17, 143, 160);
+}
+
+.fa-instagram:hover {
+    color: rgb(17, 143, 160);
+}
