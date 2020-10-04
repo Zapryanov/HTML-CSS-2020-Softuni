@@ -1,0 +1,129 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(238, 238, 238);
+    float: left;
+    margin: 70px 7.5%;
+    position: relative;
+    width: 85%;
+}
+
+h1,
+h2,
+h3,
+blockquote {
+    font-family: Georgia, serif;
+}
+
+img {
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0 0 20px 3px rgba(0, 0, 0, 0.25);
+    border: 2px solid black;
+    padding: 5px;
+}
+
+header.top {
+    border-bottom: 3px solid black;
+    float: left;
+    width: 100%;
+}
+
+header p {
+    float: left;
+    font-size: 28px;
+    text-transform: uppercase;
+    width: 50%;
+}
+
+header.top nav {
+    float: right;
+    position: relative;
+    width: 50%;
+}
+
+header.top nav ul {
+    float: right;
+    margin-top: 25px;
+    position: relative;
+}
+
+header.top nav ul li {
+    float: right;
+    padding: 0 15px;
+}
+
+ul {
+    list-style: none;
+}
+
+li,
+a {
+    color: rgb(0, 102, 0);
+    text-decoration: none;
+}
+/* Main */
+
+main {
+    float: left;
+    position: relative;
+    width: 70%;
+}
+
+article {
+    float: left;
+    width: 100%;
+}
+
+.first {
+    float: right;
+    margin: 0 0 20px 20px;
+}
+
+blockquote {
+    border-left: 3px solid #c9c4c4;
+    float: right;
+    font-size: 1.2em;
+    font-style: italic;
+    margin: 0;
+    padding-left: 20px;
+    width: 50%;
+}
+
+blockquote p,
+p.half-paragraph {
+    margin-top: 0;
+}
+
+blockquote footer {
+    text-align: right;
+}
+
+.half-paragraph {
+    float: left;
+    padding-right: 20px;
+    width: 50%;
+}
+
+.clear {
+    clear: both;
+}
+
+.second {
+    float: left;
+    margin: 0 20px 20px 0;
+}
+
+/* Aside */
+
+aside {
+    float: left;
+    padding-left: 50px;
+    width: 30%;
+}
+
+aside section {
+    float: left;
+    width: 100%;
+}
