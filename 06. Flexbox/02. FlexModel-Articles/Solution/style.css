@@ -1,0 +1,40 @@
+html {
+    box-sizing: border-box;
+    font-family: Helvetica, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+*,
+::before,
+::after {
+    box-sizing: inherit;
+}
+
+h1,
+h2,
+h3 {
+    font-family: Georgia, serif;
+    font-size: 1em;
+    line-height: 1.2;
+}
+
+h2 {
+    font-size: 30px;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+}
+
+section {
+    display: flex;
+    justify-content: space-between;
+    max-width: 70vw;
+    padding-top: 70px;
+}
+
+article {
+    flex: 0 1 25%;
+}
