@@ -1,0 +1,60 @@
+html {
+    font-family: Helvetica, sans-serif;
+    font-size: 20px;
+}
+
+.container {
+    align-content: flex-start;
+    display: flex;
+    flex-flow: column wrap;
+    max-width: 15vw;
+    height: 35rem;
+}
+
+span {
+    border: 1px solid black;
+    height: 11%;
+    margin: 2px;
+    text-align: center;
+    width: 50%;
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.first {
+    order: 0;
+}
+
+.second {
+    order: 1;
+}
+
+.third {
+    order: 2;
+}
+
+.fourth {
+    order: 3;
+}
+
+.fifth {
+    order: 4;
+}
+
+.sixth {
+    order: 5;
+}
+
+.sevent {
+    order: 6;
+}
+
+.eight {
+    order: 7
+}
+
+.second-column {
+    order: 10;
+}
