@@ -13,3 +13,21 @@
 ::after {
     color: rgb(0, 153, 0);
 }
+
+@media (max-width: 600px) {
+    ::after {
+        color: red;
+    }
+}
+
+@media (max-height: 600px) {
+    ::after {
+        color: blue;
+    }
+}
+
+@media (max-aspect-ratio: 5/8) {
+    ::after {
+        color: yellow;
+    }
+}
