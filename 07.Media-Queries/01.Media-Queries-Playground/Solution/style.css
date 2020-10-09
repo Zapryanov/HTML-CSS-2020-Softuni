@@ -1,0 +1,15 @@
+.mq-width:after {
+    content: "Viewport width is larger than 600px";
+}
+
+.mq-height:after {
+    content: "Viewport height is larger than 600px";
+}
+
+.mq-ar:after {
+    content: " Aspect Ratio is larger than 5/8";
+}
+
+::after {
+    color: rgb(0, 153, 0);
+}
