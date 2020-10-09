@@ -1,0 +1,40 @@
+@media (max-width: 480px) {
+    .column.top,
+    .column.bottom {
+        align-items: flex-start;
+        display: flex;
+        flex-flow: column;
+    }
+
+    .first-image,
+    .second-image {
+        float: none;
+        margin: 0;
+        
+    }
+
+    blockquote,
+    .half-paragraph {
+        flex: 1 0 100%;
+    }
+
+    blockquote {
+        margin: 20px 0;
+    }
+
+    .middle > p:first-child {
+        order: 0;
+    }
+
+    .middle blockquote {
+        order: 1;
+    }
+
+    .middle .half-paragraph {
+        order: 2;
+    }
+
+    .middle p:last-child {
+        order: 3;
+    }
+}
