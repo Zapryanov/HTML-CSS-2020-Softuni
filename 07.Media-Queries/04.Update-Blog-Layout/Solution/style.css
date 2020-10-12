@@ -1,3 +1,5 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css");
+
 body {
     background-color: rgb(238, 238, 238);
     display: flex;
@@ -44,6 +46,10 @@ header p {
     font-family: sans-serif;
     font-weight: bold;
     text-transform: uppercase;
+}
+
+header .menu-close {
+    display: none;
 }
 
 h1, h2 {
@@ -116,8 +122,58 @@ aside ul li a {
     text-decoration: none;
 }
 
-@media (min-width: 1025px) and (max-width: 1280px) {
+@media (max-width: 768px) {
   
+    /* header .menu-close {
+        align-items: center;
+        display: flex;
+        justify-content: center;
+        padding-bottom: 20px;
+    } */
+
+    .page {
+        flex-direction: column;
+    }
+
+    header {
+        flex-wrap: wrap;
+    }
+
+    header nav {
+        flex: 1 1 100%;
+    }
+
+    header nav ul {
+        flex-flow: column;
+        margin: 10px;
+    }
+
+    header nav ul li {
+        display: flex;
+        flex-flow: column;
+        margin: 3px;
+    }
+
+    header .menu-close {
+        display: block;
+        width: 100%;
+        text-align: center;
+    }
+
+    header p {
+        flex: 1 0 100%;
+    }
     
-    
-  }
+}
+
+@media (max-width: 480px) {
+    article {
+        display: flex;
+        flex-flow: column;
+        align-items: flex-start;
+    }
+
+    .first-image {
+        margin: 0;
+    }
+}
