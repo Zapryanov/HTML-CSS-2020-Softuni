@@ -1,0 +1,8 @@
+.page {
+    display: flex;
+    flex: 0 1 80%;
+    /* flex-flow: row wrap; */
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 50px auto;
+}
