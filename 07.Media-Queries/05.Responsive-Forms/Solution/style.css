@@ -1,16 +1,10 @@
 @import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css");
 
-/* Reset */
-
 * {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
 }
-
-/* ---------- */
-
-/* Global */
 
 body {
     font-family: Helvetica, sans-serif;
@@ -44,8 +38,6 @@ legend p {
     position: absolute;
     width: 100px;
 }
-
-/* ------------------ */
 
 .wrap-form {
     display: flex;
