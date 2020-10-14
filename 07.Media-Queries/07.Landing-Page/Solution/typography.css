@@ -3,6 +3,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=PT+Sans+Narrow&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital@1&display=swap');
 
 @import url("./reset.css");
 @import url("./buttons.css");
@@ -11,6 +12,7 @@
 /* font-family: 'Open Sans Condensed', sans-serif; */
 /* font-family: 'Roboto Slab', serif; */
 /* font-family: 'PT Sans Narrow', sans-serif; */
+/* font-family: 'Merriweather', serif; */
 
 /* ------------Global typography--------------------- */
 
@@ -41,6 +43,20 @@ h2 {
 
 .profession {
     padding-bottom: 20px;
+}
+
+.describe-person {
+    font-family: 'Merriweather', serif;
+    font-size: 14px;
+}
+
+hr {
+    width: 100px;
+    background-color: black;
+    border: none;
+    height: 3px;
+    margin: 20px auto;
+    
 }
 
 /* ---------End Global typography---------------- */
@@ -85,9 +101,10 @@ header nav ul {
 /* Main */
 
 main {
+    align-items: center;
     display: flex;
     flex-flow: column;
-    align-items: center;
+    width: 100%;
 }
 
 /* Section - Need a Website */
@@ -129,7 +146,7 @@ section.need-a-website {
 
 /* Section - Our Team */
 
-section.our-team {
+section.position {
     align-items: center;
     display: flex;
     flex-flow: column;
@@ -138,22 +155,6 @@ section.our-team {
 
 section.our-team article {
     width: 100%;
-}
-
-.our-team h2 {
-    position: relative;
-    margin: 20px 0 50px 0;
-}
-
-.our-team h2::after {
-    background-color: black;
-    bottom: -12px;
-    content: "";
-    display: inline-block;
-    height: 2px;
-    left: 25px;
-    position: absolute;
-    width: 90px;
 }
 
 .our-team article ul {
@@ -179,3 +180,34 @@ section.our-team article {
     width: 100px;
 }
 
+/* -----------Section -> Sign-up to our newsletter <----------------- */
+
+section.sign-up {
+    background-color: #68347b;
+    width: 100%;
+}
+
+section.sign-up h2 {
+    color: rgb(255, 255, 255);
+    padding-top: 20px;
+}
+
+form {
+    padding: 20px 0 40px 0;
+}
+
+form button,
+form input {
+    border: 1px solid black;
+    border-radius: 3px;
+    height: 30px;
+}
+
+form button {
+    font-weight: bold;
+    width: 170px;
+}
+
+form input {
+    width: 250px;
+}
