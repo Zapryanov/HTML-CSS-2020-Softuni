@@ -204,6 +204,7 @@ form input {
 }
 
 form button {
+    cursor: pointer;
     font-weight: bold;
     width: 170px;
 }
