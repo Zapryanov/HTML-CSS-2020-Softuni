@@ -14,7 +14,7 @@
 /* font-family: 'PT Sans Narrow', sans-serif; */
 /* font-family: 'Merriweather', serif; */
 
-/* ------------Global typography--------------------- */
+/* ------------> Global typography <--------------------- */
 
 body {
     display: flex;
@@ -61,7 +61,7 @@ hr {
 
 /* ---------End Global typography---------------- */
 
-/* Header */
+/* ------------------> Header <-------------------- */
 
 .purple-h2 {
     color: #800084;
@@ -98,7 +98,7 @@ header nav ul {
     display: none;
 }
 
-/* Main */
+/* --------------> Main <----------------- */
 
 main {
     align-items: center;
@@ -107,7 +107,7 @@ main {
     width: 100%;
 }
 
-/* Section - Need a Website */
+/* ------------> Section - Need a Website <--------------- */
 
 section.need-a-website {
     display: flex;
@@ -144,7 +144,7 @@ section.need-a-website {
     width: 150px;
 }
 
-/* Section - Our Team */
+/* -----------> Section - Our Team <------------------*/
 
 section.position {
     align-items: center;
@@ -153,17 +153,17 @@ section.position {
     width: 1100px;
 }
 
-section.our-team article {
+section.position article {
     width: 100%;
 }
 
-.our-team article ul {
+.position article ul {
     display: flex;
     flex-flow: row wrap;
     justify-content: space-between;
 }
 
-.our-team article ul li {
+.position article ul li {
     align-items: center;
     display: flex;
     flex: 0 1 28%;
@@ -172,7 +172,7 @@ section.our-team article {
     padding: 0 30px 45px 30px;
 }
 
-.our-team img {
+.position img {
     border-radius: 50%;
     display: block;
     height: 100px;
@@ -180,7 +180,7 @@ section.our-team article {
     width: 100px;
 }
 
-/* -----------Section -> Sign-up to our newsletter <----------------- */
+/* -----------> Section - Sign-up to our newsletter <----------------- */
 
 section.sign-up {
     background-color: #68347b;
@@ -211,4 +211,10 @@ form button {
 
 form input {
     width: 250px;
+}
+
+/* ------------> Section - Testimonials <---------------- */
+
+.testimonials p.describe-person {
+    padding-top: 20px;
 }
