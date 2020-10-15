@@ -59,7 +59,7 @@ hr {
     
 }
 
-/* ---------End Global typography---------------- */
+/* ---------END Global typography---------------- */
 
 /* ------------------> Header <-------------------- */
 
@@ -97,6 +97,8 @@ header nav ul {
 .mobile-menu {
     display: none;
 }
+
+/* ---------> END Header <---------------- */
 
 /* --------------> Main <----------------- */
 
@@ -144,6 +146,8 @@ section.need-a-website {
     width: 150px;
 }
 
+/* ------------> END Section - Need a Website <--------------- */
+
 /* -----------> Section - Our Team <------------------*/
 
 section.position {
@@ -174,11 +178,14 @@ section.position article {
 
 .position img {
     border-radius: 50%;
+    box-shadow: 0 0 8px 2px rgba(0, 0, 0, 0.25);
     display: block;
     height: 100px;
     max-width: 100%;
     width: 100px;
 }
+
+/* -----------> END Section - Our Team <------------------*/
 
 /* -----------> Section - Sign-up to our newsletter <----------------- */
 
@@ -213,8 +220,64 @@ form input {
     width: 250px;
 }
 
-/* ------------> Section - Testimonials <---------------- */
+/* -----------> END Section - Sign-up to our newsletter <----------------- */
+
+/* ------------> Section - Testimonials <---------------- it use styles from Section - Our Team --------*/
 
 .testimonials p.describe-person {
     padding-top: 20px;
 }
+
+/* -----------> END Section - Testimonials <----------------- */
+
+/* ------------> Footer <------------------------ */
+
+footer {
+    background-color: lightgray;
+    display: flex;
+    justify-content: center;
+    line-height: 1.2;
+    width: 100%;
+}
+
+footer section {
+    display: flex;
+    flex: 0 1 1100px;
+    justify-content: space-between;
+}
+
+footer section article:first-child {
+    flex: 0 1 30%;
+}
+
+footer section article:nth-child(2) {
+    flex: 0 1 30%;
+}
+
+footer section article:last-child {
+    flex: 0 1 21%;
+}
+
+.wrap-footer-sitemap {
+    display: flex;
+    justify-content: space-between;
+}
+
+footer h2,
+footer h3 {
+    padding-bottom: 20px;
+}
+
+.fas {
+    width: 20px;
+}
+
+.wrap-icon-address {
+    margin-right: 5px;
+}
+
+.position-address {
+    display: flex;
+}
+
+/* ------------> END Footer <---------------- */
