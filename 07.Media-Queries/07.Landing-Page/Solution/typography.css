@@ -233,7 +233,7 @@ form input {
 /* ------------> Footer <------------------------ */
 
 footer {
-    background-color: lightgray;
+    box-shadow: inset 0px 7px 3px -3px rgba(50, 50, 50, 0.75);
     display: flex;
     justify-content: center;
     line-height: 1.2;
