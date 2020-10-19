@@ -17,7 +17,6 @@ h3 {
     color: #54546d;
     font-family: 'Montserrat', sans-serif;
     font-size: 24px;
-    margin-top: 20px;
 }
 
 header article,
@@ -52,6 +51,7 @@ p.small-text {
 /* Header */
 
 header {
+    background-color: #ffffff;
     box-shadow: 0px 2px 15px 0px rgba(0,0,0,0.25);
 }
 
@@ -97,6 +97,34 @@ section.nav ul li:last-child a  {
     margin-left: 20px;
 }
 
+main article.diploma section.wrap-image {
+    position: relative;
+}
+
+.circle {
+    background-color: #54546d;
+    border-radius: 50%;
+    content: "";
+    display: inline-block;
+    height: 600px;
+    left: -43px;
+    position: absolute;
+    width: 600px;
+    z-index: -1;
+    bottom: -10px;
+}
+
+.circle::after {
+    content: "";
+    background: url(../images/award.svg);
+    width: 147px;
+    height: 226px;
+    display: inline-block;
+    position: absolute;
+    bottom: 93px;
+    right: 105px;
+}
+
 /* -----Section Sertificates------ */
 
 article.certificates,
@@ -122,4 +150,44 @@ article.career-assistance button {
     color: #9b5dc6;
     font-weight: bold;
     padding: 5px 15px;
+}
+
+/* -----End of Main Section----- */
+
+/* -----Section Footer----- */
+
+footer {
+    background-color: #2c2c3a;
+    color: #ffffff;
+}
+
+footer div.size {
+    justify-content: space-between;
+    padding: 30px 0;
+}
+
+footer div.size h3 {
+    color: #9b5dc6;
+    font-size: 16px;
+    font-weight: bold;
+    margin: 10px 0;
+}
+
+footer ul li a {
+    color: #ffffff;
+    line-height: 1.5;
+}
+
+.wrap-icons {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0px;
+}
+
+.fab {
+    font-size: 25px;
+}
+
+.last-section-footer p {
+    margin-bottom: 10px;
 }
