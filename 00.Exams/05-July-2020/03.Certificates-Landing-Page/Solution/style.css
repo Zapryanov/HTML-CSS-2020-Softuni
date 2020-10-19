@@ -1,0 +1,64 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css");
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400&display=swap');
+
+/* font-family: 'Montserrat', sans-serif; */
+/* font-family: 'Lato', sans-serif; */
+
+body {
+    font-family: 'Lato', sans-serif;
+}
+
+h1,
+h2,
+h3 {
+    font-family: 'Montserrat', sans-serif;
+}
+
+header article,
+main article,
+footer article {
+    display: flex;
+    margin: 0 auto;
+    max-width: 1200px;
+    width: 85%;
+}
+
+header {
+    box-shadow: 0px 2px 15px 0px rgba(0,0,0,0.25);
+}
+
+header article {
+    align-items: center;
+}
+
+section.logo {
+    flex: 0 1 40%;
+}
+
+section.nav {
+    flex: 0 1 60%;
+}
+
+section.nav ul {
+    display: flex;
+    justify-content: space-between;
+}
+
+section.nav ul li:not(:last-child) a {
+    color: #54546d;
+    font-size: 12px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+section.nav ul li:last-child a  {
+    background-color: #9b5dc6;
+    border-radius: 12px;
+    color: white;
+    font-size: 12px;
+    font-weight: bold;
+    padding: 5px 12px;
+    text-transform: capitalize;
+}
