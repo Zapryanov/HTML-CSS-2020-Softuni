@@ -30,8 +30,14 @@ article.wrap-all-page {
 }
 
 article.wrap-all-page,
+section.wrap-all-text,
 section.wrap-documents {
     display: flex;
+}
+
+section.wrap-all-text {
+    flex-flow: column;
+    justify-content: space-between;
 }
 
 h1,
@@ -44,4 +50,8 @@ h3 {
     color: rgb(235, 231, 231);
     font-size: 14px;
     font-style: italic;
+}
+
+section.wrap-documents {
+    margin: 10px 0;
 }
