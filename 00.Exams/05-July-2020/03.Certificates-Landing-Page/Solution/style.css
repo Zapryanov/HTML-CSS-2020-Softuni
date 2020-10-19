@@ -6,24 +6,50 @@
 /* font-family: 'Montserrat', sans-serif; */
 /* font-family: 'Lato', sans-serif; */
 
+/* Global Rules */
+
 body {
+    background-color: #ffffff;
     font-family: 'Lato', sans-serif;
 }
 
-h1,
-h2,
 h3 {
+    color: #54546d;
     font-family: 'Montserrat', sans-serif;
+    font-size: 24px;
+    margin-top: 20px;
 }
 
 header article,
-main article,
-footer article {
+.size {
     display: flex;
     margin: 0 auto;
     max-width: 1200px;
     width: 85%;
 }
+
+main article div.size {
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px 0;
+}
+
+.wrap-all-text {
+    max-width: 80%;
+}
+
+p.main-text {
+    padding: 20px 0;
+}
+
+p.small-text {
+    color: #54546d;
+    font-size: 12px;
+    font-style: italic;
+    padding: 5px 0;
+}
+
+/* Header */
 
 header {
     box-shadow: 0px 2px 15px 0px rgba(0,0,0,0.25);
@@ -56,9 +82,44 @@ section.nav ul li:not(:last-child) a {
 section.nav ul li:last-child a  {
     background-color: #9b5dc6;
     border-radius: 12px;
-    color: white;
+    color: #ffffff;
     font-size: 12px;
     font-weight: bold;
     padding: 5px 12px;
     text-transform: capitalize;
+}
+
+/* Main */
+
+/* -----Section Diploma----- */
+
+.img-right {
+    margin-left: 20px;
+}
+
+/* -----Section Sertificates------ */
+
+article.certificates,
+article.certificates h3 {
+    background-color: #14162b;
+    color: #ffffff;
+}
+
+article.certificates img {
+    top: 60px;
+    position: relative;
+}
+
+.img-left {
+    margin-right: 20px;
+}
+/* -----Section Career */
+
+article.career-assistance button {
+    background-color: #ffffff;
+    border: 1px solid #9b5dc6;
+    border-radius: 15px;
+    color: #9b5dc6;
+    font-weight: bold;
+    padding: 5px 15px;
 }
