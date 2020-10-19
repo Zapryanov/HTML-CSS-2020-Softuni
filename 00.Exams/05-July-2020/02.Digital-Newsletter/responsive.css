@@ -1,5 +1,37 @@
 @media (max-width: 884px) {
-    main header {
-        background-color: red;
+    main header,
+    .newsletter-intro {
+        padding: 0;
+    }
+
+    .newsletter-intro hr {
+        margin: 2em 0;
+    }
+
+    .newsletter-intro article {
+        padding-left: 30px;
+    }
+
+    .newsletter-intro h4 {
+        font-size: 24px;
+    }
+
+    .newsletter-boxes,
+    .newsletter-bottom {
+        display: flex;
+    }
+    
+    .newsletter-boxes {
+        flex-flow: column;
+    }
+
+    .newsletter-bottom h4,
+    .newsletter-bottom-content {
+        text-align: left;
+    }
+
+    .newsletter-bottom hr,
+    .newsletter-bottom-content {
+        margin: 2em 1em;
     }
 }
