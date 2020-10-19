@@ -16,13 +16,32 @@ html {
 }
 
 body {
+    align-items: center;
     background-color: #306085;
     color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
     margin: 0;
+    height: 100vh;
+}
+
+article.wrap-all-page {
+    max-width: 1200px;
+}
+
+article.wrap-all-page,
+section.wrap-documents {
+    display: flex;
 }
 
 h1,
 h2,
 h3 {
     font-family: 'Montserrat', sans-serif;
+}
+
+.italic {
+    color: rgb(235, 231, 231);
+    font-size: 14px;
+    font-style: italic;
 }
