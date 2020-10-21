@@ -2,6 +2,7 @@
 
 body {
     background: url("../Requirements-and-Resources/Media/background.jpg");
+    background-position: center;
     max-width: 1920px;
 }
 
@@ -23,7 +24,9 @@ section.carving {
 
 header,
 header ul,
-section.carving {
+section.carving,
+section.toolbox,
+.wrap-images-toolbox {
     display: flex;
 }
 
@@ -38,8 +41,28 @@ button.dark-brown {
 }
 
 header,
-.wrap-section-text {
+.wrap-section-text,
+.container-each-image {
     background-color: #e6e3de;
+}
+
+header ul li a,
+header h2,
+.wrap-heading-toolbox p {
+    color: #554938;
+}
+
+section.party,
+section.cookies,
+section.toolbox {
+    display: flex;
+    margin-bottom: 30px;
+    max-width: 1200px;
+    width: 80%;
+}
+
+img {
+    display: block;
 }
 
 /* -----HEADER----- */
@@ -59,10 +82,6 @@ header {
 
 header ul li {
     margin: 0 20px;
-}
-
-header ul li a {
-    color: #554938;
 }
 
 .wrap-login-icon-serach button.dark-brown {
@@ -112,19 +131,20 @@ section.carving input {
     width: 330px;
 }
 
-/* -----Section Party----- */
+/* -----Section Party --- and --- Section Cookies----- */
 
-section.party {
-    display: flex;
-    max-width: 1200px;
-    width: 80%;
+section.party,
+section.cookies {
+    height: 400px;
 }
 
 .wrap-section-image {
     flex: 0 1 60%;
+    height: 100%;
 }
 
 .wrap-section-image img {
+    height: 100%;
     width: 100%;
 }
 
@@ -153,4 +173,65 @@ section.party button.dark-brown {
     margin-right: 10px;
     padding: 7px 15px;
     position: absolute;
+}
+
+/* ----- Section Toolbox----- */
+
+section.toolbox {
+    align-items: center;
+    flex-flow: column;
+}
+
+.wrap-heading-toolbox,
+.wrap-shop-btn {
+    display: flex;
+    justify-content: center;
+    width: 300px;
+}
+
+.wrap-heading-toolbox {
+    background-color: #e6e3de;
+    margin-bottom: 10px;
+    opacity: 0.7;
+}
+
+.wrap-heading-toolbox span {
+    font-size: 26px;
+    padding: 5px 10px;
+}
+
+.wrap-images-toolbox {
+    justify-content: space-evenly;
+}
+
+.container-each-image {
+    flex: 0 1 250px;
+}
+
+.container-each-image img {
+    width: 100%;
+}
+
+.container-each-image p {
+    font-style: italic;
+    text-align: center;
+}
+
+.wrap-shop-btn {
+    background-color: #db4e35;
+    display: flex;
+    justify-content: center;
+    margin-top: 45px;
+    padding: 10px 0;
+}
+
+.red-shop-btn {
+    background-color: inherit;
+    border: none;
+}
+
+.red-shop-btn a {
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: bold;
 }
