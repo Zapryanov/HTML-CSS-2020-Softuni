@@ -26,7 +26,9 @@ header,
 header ul,
 section.carving,
 section.toolbox,
-.wrap-images-toolbox {
+.wrap-images-toolbox,
+footer,
+footer section ul {
     display: flex;
 }
 
@@ -42,13 +44,15 @@ button.dark-brown {
 
 header,
 .wrap-section-text,
-.container-each-image {
+.container-each-image,
+footer {
     background-color: #e6e3de;
 }
 
 header ul li a,
 header h2,
-.wrap-heading-toolbox p {
+.wrap-heading-toolbox p,
+footer a {
     color: #554938;
 }
 
@@ -234,4 +238,38 @@ section.toolbox {
     color: #ffffff;
     font-size: 16px;
     font-weight: bold;
+}
+
+/* -----Footer----- */
+
+footer {
+    justify-content: center;
+}
+
+footer section {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1200px;
+    padding: 30px 0;
+    width: 80%;
+}
+
+footer ul:not(:last-child) li:not(:first-child) {
+    padding: 0 10px;
+}
+
+footer ul:not(:last-child) li:first-child {
+    padding-right: 10px;
+}
+
+footer ul:last-child li:not(:last-child) {
+    padding: 0 10px;
+}
+
+footer ul:last-child li:last-child {
+    padding-left: 10px;
+}
+
+footer ul li:not(:last-child) {
+    border-right: 1px solid #554938;
 }
