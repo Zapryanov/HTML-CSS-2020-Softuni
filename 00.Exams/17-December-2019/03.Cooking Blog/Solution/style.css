@@ -3,7 +3,6 @@
 body {
     background: url("../Requirements-and-Resources/Media/background.jpg");
     max-width: 1920px;
-    width: 100%;
 }
 
 .wrap-all-page {
@@ -11,18 +10,51 @@ body {
     flex-flow: column;
 }
 
+/* -----Global Rules----- */
+
+body,
+.wrap-all-page,
+header,
+main,
+footer,
+section.carving {
+    width: 100%;
+}
+
+header,
+header ul,
+section.carving {
+    display: flex;
+}
+
+section.carving h1,
+button.dark-brown {
+    color: #ffffff;
+}
+
+button.dark-brown {
+    background-color: #554938;
+    border: none;
+}
+
+header,
+.wrap-section-text {
+    background-color: #e6e3de;
+}
+
 /* -----HEADER----- */
+
+main {
+    align-items: center;
+    display: flex;
+    flex-flow: column;
+}
 
 header {
     align-items: center;
-    background-color: #e6e3de;
     display: flex;
     justify-content: space-between;
     padding: 0 30px;
-}
-
-header ul {
-    display: flex;
 }
 
 header ul li {
@@ -33,10 +65,7 @@ header ul li a {
     color: #554938;
 }
 
-.wrap-login-icon-serach button {
-    background-color: #554938;
-    border: none;
-    color: #ffffff;
+.wrap-login-icon-serach button.dark-brown {
     margin-right: 10px;
     padding: 5px 10px;
 }
@@ -52,10 +81,10 @@ section.carving {
     background: url("../Requirements-and-Resources/Media/craving.jpg");
     background-size: cover;
     background-position: center;
-    display: flex;
     flex-flow: column;
     justify-content: center;
     height: 400px;
+    margin-bottom: 50px;
 }
 
 .wrap-search-field {
@@ -74,7 +103,6 @@ section.carving {
 }
 
 section.carving h1 {
-    color: #ffffff;
     font-size: 42px;
 }
 
@@ -82,4 +110,47 @@ section.carving input {
     opacity: 0.4;
     padding: 3px 0 3px 20px;
     width: 330px;
+}
+
+/* -----Section Party----- */
+
+section.party {
+    display: flex;
+    max-width: 1200px;
+    width: 80%;
+}
+
+.wrap-section-image {
+    flex: 0 1 60%;
+}
+
+.wrap-section-image img {
+    width: 100%;
+}
+
+.wrap-section-text {
+    align-items: center;
+    display: flex;
+    flex-flow: column;
+    flex: 0 1 40%;
+    justify-content: center;
+    padding: 30px;
+    position: relative;
+    text-align: center;
+}
+
+.wrap-section-text h2 {
+    font-size: 30px;
+}
+
+.wrap-section-text p {
+    font-size: 26px;
+    margin-top: 0;
+}
+
+section.party button.dark-brown {
+    bottom: 110px;
+    margin-right: 10px;
+    padding: 7px 15px;
+    position: absolute;
 }
