@@ -84,7 +84,8 @@ h2,
 
 section.heading-one,
 section.for-course,
-section.skills {
+section.skills,
+section.topics {
     align-items: center;
     display: flex;
     flex-flow: column;
@@ -92,7 +93,8 @@ section.skills {
 }
 
 section.for-course article,
-section.skills article {
+section.skills article,
+section.topics article {
     align-items: center;
     display: flex;
     flex-flow: column;
@@ -224,15 +226,18 @@ section.for-course article {
 
 /* ----- Section Skills ----- */
 
-section.skills article {
+section.skills article,
+section.topics article {
     background-color: #f2f2f2;
 }
 
-.wrap-skill-uls {
+.wrap-skill-uls,
+.wrap-topics-ul {
     width: 100%;
 }
 
-.wrap-skill-uls ul {
+.wrap-skill-uls ul,
+.wrap-topics-ul ul {
     display: flex;
     flex-flow: row wrap;
     margin-bottom: 50px;
@@ -250,4 +255,35 @@ section.skills article {
     font-family: "Font Awesome 5 Free";
     font-weight: 900;
     padding-right: 3px;
+}
+
+/* ----- Section Topics ----- */
+
+.wrap-topics-ul ul li {
+    background-color: #dadada;
+    border-left: 3px solid black;
+    color: rgb(90, 90, 90);
+    flex: 0 1 49%;
+    font-size: 12px;
+    font-weight: 900;
+    margin-bottom: 10px;
+    padding: 5px 0 5px 30px;
+    position: relative;
+    text-align: left;
+}
+
+.wrap-topics-ul ul li:nth-child(odd) {
+    margin-right: 10px;
+}
+
+.wrap-topics-ul ul {
+    counter-reset: count;
+    justify-content: space-between;
+}
+
+.wrap-topics-ul li::before {
+    content: counter(count);
+    counter-increment: count;
+    left: 5px;
+    position: absolute;
 }
