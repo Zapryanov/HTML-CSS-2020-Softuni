@@ -83,11 +83,21 @@ h2,
 }
 
 section.heading-one,
-section.for-course {
+section.for-course,
+section.skills {
     align-items: center;
     display: flex;
     flex-flow: column;
     width: 100%;
+}
+
+section.for-course article,
+section.skills article {
+    align-items: center;
+    display: flex;
+    flex-flow: column;
+    padding: 0 40px;
+    width: 80%;
 }
 
 section h2::after {
@@ -204,15 +214,40 @@ i.far {
 /* ----- Section For Courses */
 
 section.for-course article {
-    align-items: center;
     background-color: #f2f2f2;
-    display: flex;
-    flex-flow: column;
-    padding: 0 40px;
-    width: 80%;
 }
 
 .for-course span {
+    background-color: #f2f2f2;
     font-weight: 900;
 }
 
+/* ----- Section Skills ----- */
+
+section.skills article {
+    background-color: #f2f2f2;
+}
+
+.wrap-skill-uls {
+    width: 100%;
+}
+
+.wrap-skill-uls ul {
+    display: flex;
+    flex-flow: row wrap;
+    margin-bottom: 50px;
+}
+
+.wrap-skill-uls ul li {
+    flex: 0 1 50%;
+    margin-bottom: 10px;
+}
+
+.wrap-skill-uls ul li::before {
+    color: #ffa000;
+    content: "\f19d";
+    display: inline-block;
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    padding-right: 3px;
+}
