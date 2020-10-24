@@ -85,7 +85,8 @@ h2,
 section.heading-one,
 section.for-course,
 section.skills,
-section.topics {
+section.topics,
+section.advice {
     align-items: center;
     display: flex;
     flex-flow: column;
@@ -94,7 +95,8 @@ section.topics {
 
 section.for-course article,
 section.skills article,
-section.topics article {
+section.topics article,
+section.advice article {
     align-items: center;
     display: flex;
     flex-flow: column;
@@ -286,4 +288,18 @@ section.topics article {
     counter-increment: count;
     left: 5px;
     position: absolute;
+}
+
+/* ----- Section Advice ----- */
+
+section.advice h2 {
+    margin-bottom: 0;
+}
+
+section.advice h2::after {
+    background-color: #fff;
+}
+
+section.advice p {
+    padding: 0 50px;
 }
