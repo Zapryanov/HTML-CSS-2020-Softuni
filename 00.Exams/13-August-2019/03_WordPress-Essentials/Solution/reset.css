@@ -24,3 +24,8 @@ li {
 a {
     text-decoration: none;
 }
+
+button {
+    border: none;
+    padding: 0;
+}

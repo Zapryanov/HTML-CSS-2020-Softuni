@@ -1,0 +1,183 @@
+/* Global Rules */
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;0,900;1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;800&display=swap');
+
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css");
+
+body {
+    background-color: #fff;
+    font-family: 'Lato', sans-serif;
+}
+
+header section {
+    flex: 0 1 80%;
+
+}
+
+h1 {
+    font-family: 'Rubik', sans-serif;
+    font-size: 35px;
+    margin-bottom: 0;
+}
+
+h2 {
+    font-size: 28px;
+}
+
+h2,
+button.btn-big,
+header a {
+    text-transform: uppercase;
+}
+
+h1,
+h2,
+.bold {
+    font-weight: bold;
+}
+
+.thin {
+    color: rgb(236, 233, 233);
+    font-family: 'Rubik', sans-serif;
+    font-weight: 300;
+}
+
+.orange {
+    background-color: #ffa000;
+    color: #fff;
+    cursor: pointer;
+}
+
+.orange-btn {
+    border-radius: 15px;
+    font-weight: bold;
+}
+
+.btn-small {
+    padding: 5px 12px;
+    text-transform: capitalize;
+}
+
+.btn-big {
+    margin: 10px 0 35px 0;
+    padding: 5px 0;
+    width: 250px;
+}
+
+.btn-big a {
+    color: #fff;
+    font-size: 14px;
+    padding: 5px 0;
+    text-transform: uppercase;
+}
+
+.wrap-all-page {
+    align-items: center;
+    display: flex;
+    flex-flow: column;
+    width: 100%;
+}
+
+/* ----- Header ----- */
+
+header {
+    background-color: #234465;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+header section {
+    display: flex;
+    justify-content: space-between;
+}
+
+header article,
+header nav,
+header nav ul {
+    align-items: center;
+    display: flex;
+}
+
+.wrap-logo-header img {
+    margin: 10px 20px 10px 0;
+    padding-left: 10px;
+    width: 150px;
+}
+
+.wrap-menu-header li {
+    margin: 0 10px;
+}
+
+header nav ul li a,
+i.fa-search {
+    color: #91a1b2;
+    font-weight: bold;
+}
+
+i.fa-search {
+    margin: 0 10px 0 20px;
+}
+
+header nav button {
+    margin-left: 20px;
+}
+
+/* ----- Main ----- */
+
+main {
+    align-items: center;
+    display: flex;
+    flex-flow: column;
+    width: 100%;
+}
+
+/* ----- Section Under Header ----- */
+
+section.under-header {
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+section.under-header article {
+    display: flex;
+    flex: 0 1 80%;
+    justify-content: flex-start;
+}
+
+.light-text {
+    color: #c87d00;
+    margin-right: 20px;
+}
+
+.dark-text {
+    color: #234465;
+}
+
+/* ----- Section Heading One ----- */
+
+section.heading-one {
+    align-items: center;
+    background: url("../Requirements-and-Resources/images/foggy-background.png");
+    background-size: cover;
+    display: flex;
+    flex-flow: column;
+    width: 100%;
+}
+
+section.heading-one article {
+    color: #fff;
+    text-align: center;
+}
+
+.main-points {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+i.fas,
+i.far {
+    padding-right: 2px;
+}
