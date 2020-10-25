@@ -1,31 +1,67 @@
-html {
-    box-sizing: border-box;
-}
-
-*,
-*::before,
-*::after {
-    box-sizing: inherit;
-    margin: 0;
-    padding: 0;
-}
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css");
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;0,900;1,300&display=swap');
 
 body {
-    margin: 0;
-    padding: 0;
+    color: rgba(0, 0, 0, 0.75);
+    font-family: 'Lato', sans-serif;
+}
+
+main {
+    align-items: center;
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    width: 100%;
 }
 
 ul {
-    list-style: none;
-    margin: 0;
-    padding: 0;
+    background-color: #f4f5f7;
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+    flex: 0 1 60%;
+    position: relative;
 }
 
-a {
-    text-decoration: none;
+ul::before {
+    background-color: #42abf8;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    color: #fff;
+    content: "What you get";
+    display: inline-block;
+    font-weight: 700;
+    height: 50px;
+    padding-top: 14px;
+    position: absolute;
+    right: 0;
+    top: -50px;
+    text-align: center;
+    vertical-align: middle;
+    width: 125px;
 }
 
-button {
-    border: none;
-    padding: 0;
+li {
+    border-bottom: 3px solid #ffffff;
+    font-size: 14px;
+    padding: 10px 30px 10px 10px;
+    position: relative;
+}
+
+ul li:nth-child(2),
+ul li:nth-child(6),
+ul li:nth-child(9) {
+    border-bottom: none;
+}
+
+li::after {
+    font-family: "Font Awesome 5 Free";
+    color: #23be5e;
+    content: "\f058";
+    display: inline-block;
+    padding-right: 3px;
+    position: absolute;
+    right: 30px;
+    vertical-align: middle;
+    font-weight: 900;
 }
