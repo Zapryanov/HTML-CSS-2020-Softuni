@@ -14,7 +14,7 @@
         object-fit: cover;
     }
 
-    .thumbnails > div a:last-of-type {
-        margin-bottom: 30px;
+    .thumbnails > div > a:last-child {
+        margin-bottom: 2em
     }
 }
