@@ -113,16 +113,13 @@ h1 {
     flex: 0 1 28%;
 }
 
-.wrap-blue-certificate,
-.wrap-dark-certificate {
-    display: flex;
-}
-
 .wrap-blue-certificate {
+    display: flex;
     width: 45%;
 }
 
 .wrap-dark-certificate {
+    display: flex;
     width: 55%;
 }
 
@@ -139,3 +136,6 @@ h1 {
     flex: 1 0 85%;
     font-style: italic;
 }
+
+/* ----- Main ----- */
+
