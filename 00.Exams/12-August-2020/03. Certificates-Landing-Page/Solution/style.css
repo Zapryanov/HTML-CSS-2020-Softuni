@@ -17,20 +17,28 @@ h1, h2, h3, h4, h5, h6 {
     font-family: 'Montserrat', sans-serif;
 }
 
+
+
 header {
+    align-items: center;
+    background: linear-gradient(rgba(255, 255, 255, 0.4), rgba(255, 255, 255, 0.5)), url("../Requirements-and-Resources/images/hero-certificates.jpg");
+    background-size: cover;
     display: flex;
-    justify-content: center;
+    flex-flow: column;
     width: 100%;
 }
 
+/* ----- Navigation ----- */
+
 nav {
     align-items: center;
+    background-color: #ffffff;
     border-bottom-left-radius: 8px;
     border-bottom-right-radius: 8px;
     box-shadow: 0 1px 4px 1px rgba(0, 0, 0, 0.25);
     display: flex;
     justify-content: space-between;
-    max-width: 1200px;
+    max-width: 1280px;
     width: 90%;
 }
 
@@ -41,7 +49,7 @@ nav {
 
 header > nav > ul {
     display: flex;
-    flex: 0 1 50%;
+    flex: 0 1 41%;
     justify-content: space-between;
     margin-right: 30px;
 }
@@ -60,4 +68,74 @@ header > nav > ul > li:last-child a {
 .blue-line {
     border-top: 4px solid #42abf8;
     padding-top: 26px;
+}
+
+/* ----- Header under Navigation ----- */
+
+.wrap-certificates {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    width: 100%;
+}
+
+.wrap-certificates article {
+    display: flex;
+    flex-flow: row wrap;
+    flex: 0 1 78%;
+    justify-content: space-between;
+}
+
+.wrap-certificates-text {
+    background-color: #29394b;
+    border-radius: 8px;
+    color: #fefefe;
+    flex: 0 1 60%;
+    font-weight: 300;
+}
+
+h1 {
+    font-weight: 500;
+    padding: 30px 20px 10px 20px;
+}
+
+.wrap-certificates-text p {
+    padding: 10px 20px;
+}
+
+.wrap-certificates-text p:last-child {
+    padding-bottom: 50px;
+}
+
+.wrap-certificates-images {
+    align-items: flex-end;
+    display: flex;
+    flex: 0 1 28%;
+}
+
+.wrap-blue-certificate,
+.wrap-dark-certificate {
+    display: flex;
+}
+
+.wrap-blue-certificate {
+    width: 45%;
+}
+
+.wrap-dark-certificate {
+    width: 55%;
+}
+
+.wrap-certificates img {
+    background-size: cover;
+    display: block;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+.wrap-certificates article > p {
+    padding: 20px 0;
+    flex: 1 0 85%;
+    font-style: italic;
 }
