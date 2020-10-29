@@ -1,1 +1,20 @@
 /* TODO: Add media queries */
+
+@media screen and (max-width: 600px) {
+    .thumbnails {
+        flex-direction: column;
+    }
+
+    .thumbnails > div {
+        width: 100%;
+    }
+
+    .thumbnails a img {
+        max-height: 300px;
+        object-fit: cover;
+    }
+
+    .thumbnails > div a:last-of-type {
+        margin-bottom: 30px;
+    }
+}
