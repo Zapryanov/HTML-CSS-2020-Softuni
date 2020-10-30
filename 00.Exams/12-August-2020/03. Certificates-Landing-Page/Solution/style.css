@@ -30,7 +30,7 @@ header {
 
 /* ----- Navigation ----- */
 
-nav {
+header nav {
     align-items: center;
     background-color: #ffffff;
     border-bottom-left-radius: 8px;
@@ -250,4 +250,46 @@ main {
     position: absolute;
     top: 5px;
     width: 2px;
+}
+
+/* ----- Footer ----- */
+
+footer {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+footer section {
+    border-top: 1px solid #494949;
+    display: flex;
+    flex: 0 1 82%;
+    justify-content: space-between;
+    padding: 30px 0;
+}
+
+.footer-wrap-logo-and-text {
+    align-items: center;
+    display: flex;
+    flex: 0 1 24%;
+    justify-content: space-between;
+}
+
+.footer-wrap-logo-and-text img {
+    width: 120px;
+}
+
+.footer-wrap-logo-and-text p {
+    color: #d4d4d4;
+    font-size: 10px;
+    font-weight: bold;
+}
+
+footer nav {
+    flex: 0 1 50%;
+}
+
+footer nav ul {
+    display: flex;
+    justify-content: space-evenly;
 }
