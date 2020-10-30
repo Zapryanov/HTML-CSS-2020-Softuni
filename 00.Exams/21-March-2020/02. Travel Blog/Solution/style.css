@@ -1,0 +1,237 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css");
+@import url('https://fonts.googleapis.com/css2?family=Gelasio:wght@400;500;600;700&display=swap');
+
+html {
+    box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+body {
+    margin: 0;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+img {
+    display: block;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+/* ----- Header ----- */
+
+header {
+    background-color: transparent;
+    display: flex;
+    justify-content: center;
+    padding: 10px 0;
+    position: absolute;
+    width: 100%;
+}
+
+header a {
+    color: #cacaca;
+}
+
+header section {
+    align-items: center;
+    flex: 0 1 90%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.wrap-logo-header {
+    flex: 0 1 4%;
+}
+
+.wrap-logo-header img {
+    background-color: transparent;
+}
+
+.wrap-login-header {
+    flex: 0 1 7%;
+}
+
+.wrap-login-header nav ul {
+    display: flex;
+    justify-content: space-between;
+}
+
+/* ----- Main ----- */
+
+main {
+    align-items: center;
+    display: flex;
+    flex-flow: column;
+    width: 100%;
+}
+
+/* ----- Main Picture ----- */
+
+.main-picture {
+    align-items: center;
+    background-image: url("../Requirements-and-Resources/images/map.jpg");
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    height: 600px;
+    justify-content: center;
+    width: 100%;
+}
+
+.wrap-heading {
+    align-items: center;
+    display: flex;
+    flex-flow: column;
+    padding-top: 50px;
+}
+
+h1 {
+    color: #ffffff;
+    font-family: "Gelasio", serif;
+    font-size: 60px;
+    font-weight: 700;
+    text-shadow: 2px 2px rgba(0, 0, 0, 0.50);
+    margin-bottom: 20px;
+}
+
+.main-picture button {
+    color: #d8e6ed;
+    cursor: pointer;
+    background-color: #146594;
+    border: none;
+    border-radius: 4px;
+    font-size: 18px;
+    padding: 10px 20px;
+}
+
+/* ----- Articles ----- */
+
+
+.articles {
+    align-items: center;
+    background-color: #e1e1e1;
+    display: flex;
+    flex-flow: column;
+    padding-bottom: 30px;
+    width: 100%;
+}
+
+.wrap-images {
+    display: flex;
+    flex-flow: row wrap;
+    width: 80%;
+}
+
+.wrap-images h2 {
+    color: #53595c;
+    flex: 1 0 100%;
+    font-size: 30px;
+}
+
+.wrap-images p {
+    color: #ffffff;
+    font-size: 30px;
+    text-shadow: 2px 2px rgba(0, 0, 0, 0.75);
+}
+
+.packing p,
+.planning p {
+    text-align: center;
+}
+
+.planning p {
+    margin-top: 0;
+}
+
+.left-single-image-wrapper {
+    background-image: url("../Requirements-and-Resources/images/packing.jpg");
+    background-size: cover;
+    background-position: center;
+    flex: 0 1 45%;
+    height: 600px;
+}
+
+.right-two-images-wrapper {
+    display: flex;
+    flex-flow: column;
+    flex: 0 1 55%;
+}
+
+.planning {
+    background-image: url("../Requirements-and-Resources/images/planning.jpg");
+    background-size: cover;
+    background-position: top;
+    height: 300px;
+}
+
+.budget {
+    background-image: url("../Requirements-and-Resources/images/budget.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 300px;
+    position: relative;
+}
+
+.budget p {
+    position: absolute;
+    left: 20px;
+    bottom: 10px;
+}
+
+/* ----- Footer ----- */
+
+footer {
+    background-color: #8c8c8c;
+    display: flex;
+    justify-content: center;
+}
+
+footer section {
+    flex: 0 1 85%;
+}
+
+footer a {
+    color: #cccccc;
+}
+
+footer nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 0;
+}
+
+footer nav ul {
+    display: flex;
+}
+
+footer nav ul li {
+    padding: 0 10px;
+    position: relative;
+}
+
+footer nav ul li:not(:last-child)::after {
+    background-color: #cccccc;
+    content: "";
+    display: inline-block;
+    position: absolute;
+    height: 15px;
+    width: 1px;
+    right: -1px;
+    top: 3px;
+}
