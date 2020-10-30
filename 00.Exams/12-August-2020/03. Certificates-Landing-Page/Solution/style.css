@@ -185,7 +185,7 @@ main {
     background: linear-gradient(rgba(132, 183, 212, 0.4), rgba(132, 183, 201, 0.5)), url("../Requirements-and-Resources/images/sign-up-prompt-background.jpg");
     border-radius: 8px;
     color: #fefefe;
-    margin-top: 50px;
+    margin: 50px 0;
     width: 82%;
 }
 
