@@ -1,0 +1,100 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css");
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+
+html {
+    box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+body {
+    background: linear-gradient(rgba(49, 49, 49, 0.4), rgba(49, 49, 49, 0.5)), url("../Requirements-and-Resources/image.jpg");
+    height: 100vh;
+    margin: 0;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: "Poppins", sans-serif;
+}
+
+section {
+    align-items: center;
+    display: flex;
+    height: 100%;
+    justify-content: center;
+}
+
+h1 {
+    color: #ffffff;
+    font-size: 30px;
+    font-weight: 500;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+form {
+    background-color: #ffffff;
+    border-radius: 8px;
+    width: 400px;
+}
+
+input[type="text"],
+input[type="password"] {
+    border: 0;
+    font-size: 18px;
+    outline: transparent;
+    padding: 50px 0 25px 70px;
+    width: 100%;
+
+}
+
+.wrap-username,
+.wrap-password {
+    border-bottom: 1px solid #bbbaba;
+    position: relative;
+}
+
+input[type="text"] {
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
+
+::placeholder {
+    color: #757575;
+}
+
+.icon::before {
+    font-family: "Font Awesome 5 Free";
+    display: inline-block;
+    font-weight: 900;
+    position: absolute;
+    left: 20px;
+    top: 50%;
+}
+
+.wrap-username::before {
+    content: "\f007";
+}
+
+.wrap-password::before {
+    content: "\f023";
+}
+
+.wrap-btn {
+    padding: 25px 0;
+}
+
+input[type="submit"] {
+    background-color: #d41872;
+    border: none;
+    border-radius: 12px;
+    color: #ffffff;
+    cursor: pointer;
+    display: block;
+    margin: 0 auto;
+    padding: 10px 30px;
+}
