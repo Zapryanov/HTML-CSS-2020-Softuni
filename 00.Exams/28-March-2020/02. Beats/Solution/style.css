@@ -1,0 +1,237 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css");
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700;800&display=swap');
+
+/* font-family: 'Open Sans', sans-serif; */
+
+
+body {
+    background-color: #ffffff;
+    font-family: 'Open Sans', sans-serif;
+}
+
+h1,
+h2,
+a {
+    text-transform: uppercase;
+}
+
+img {
+    display: block;
+    margin: 0;
+    width: 100%;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+header nav {
+    flex: 0 1 80%;
+    padding: 30px 0;
+}
+
+header nav ul {
+    display: flex;
+    justify-content: space-around;
+}
+
+header a {
+    color: #9d9d9d;
+    font-weight: 700;
+}
+
+/* ----- Main ----- */
+
+main {
+    align-items: center;
+    display: flex;
+    flex-flow: column;
+    overflow: hidden;
+    width: 100%;
+}
+
+/* ----- Globa for two Sections under Main ----- */
+
+.text-and-img-wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
+.wrap-text {
+    flex: 0 1 30%;
+}
+
+.wrap-image {
+    flex: 0 1 55%;
+}
+
+/* ----- Headphone -----*/
+
+.headphone {
+    margin: 50px 0;
+    width: 80%;
+}
+
+.headphone h2 {
+    font-size: 30px;
+    font-weight: 400;
+    margin: 40px 0;
+}
+
+.headphone p {
+    color: rgb(80, 79, 79);
+    font-size: 13px;
+    line-height: 2;
+    padding-bottom: 40px;
+}
+
+.red-btn {
+    margin-top: 20px;
+}
+
+.red-btn a {
+    background-color: #ff0000;
+    border-radius: 30px;
+    color: #ffffff;
+    padding: 20px 40px;
+}
+
+.red-headphone {
+    position: relative;
+    left: 160px;
+}
+
+/* ----- Eraphone ----- */
+
+.earphone {
+    background-color: #fbfcff;
+    justify-content: space-around;
+    padding: 50px 0 30px 0;
+    width: 100%;
+}
+
+.earphone .wrap-image {
+    flex: 0 1 42%;
+}
+
+.earphone .wrap-text {
+    display: flex;
+    flex: 0 1 27%;
+    flex-flow: column;
+    font-size: 16px;
+    justify-content: space-around;
+    line-height: 2;
+    font-weight: 300;
+}
+
+.earphone h2 {
+    font-size: 50px;
+    font-weight: 500;
+}
+
+.wrap-heading-and-text-below .under-h2 {
+    left: 65px;
+    line-height: 1;
+    position: relative;
+    text-transform: uppercase;
+}
+
+.wrap-price-and-btn {
+    align-items: center;
+    display: flex;
+}
+
+.price {
+    font-size: 45px;
+    font-weight: 700;
+    padding: 20px 20px 0 0;
+}
+
+/* ----- Section Gray ----- */
+
+.gray {
+    align-items: center;
+    background-color: #575757;
+    display: flex;
+    flex-flow: column;
+    padding: 30px 0;
+    width: 100%;
+}
+
+.gray-logo-and-heading {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    width: 100%;
+}
+
+.wrap-beat-logo {
+    flex: 0 1 150px;
+}
+
+.gray-heading {
+    padding-left: 30px;
+}
+
+.gray-heading,
+.read-more p {
+    color: #ffffff;
+    font-size: 50px;
+    font-weight: 300;
+    text-transform: uppercase;
+}
+
+/* ----- Section Two Big Picters ----- */
+
+section.two-big-images {
+    display: flex;
+    width: 100%;
+}
+
+.left-image,
+.right-image {
+    flex: 0 1 50%;
+}
+
+.right-image {
+    align-items: center;
+    background-color: #dadada;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.big-gray-p {
+    color: #333333;
+    font-size: 100px;
+    font-weight: 700;
+    letter-spacing: -7px;
+    text-transform: uppercase;
+}
+
+.colorful {
+    font-size: 40px;
+    font-weight: 300;
+    padding-left: 8px;
+}
+
+.colorful span.red {
+    color: #ff0000;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+/* ----- Footer ----- */
+
+footer {
+    background-color: #ffffff;
+    text-align: center;
+    width: 100%;
+}
+
+footer p {
+    font-size: 40px;
+    font-weight: 300;
+    padding: 50px 0;
+}
