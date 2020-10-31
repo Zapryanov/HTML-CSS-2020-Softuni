@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700;800&display=swap');
+
+body {
+    background-color: #ffffff;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.wrap-all-page {
+    width: 100%;
+}
+
+/* ---- Header ----- */
+
+header {
+    align-items: flex-start;
+    background-color: #001216;
+    display: flex;
+    flex-flow: column;
+    width: 100%;
+}
+
+.green {
+    color: #00f2ff;
+    font-size: 40px;
+    font-weight: 600;
+    padding: 15px 0 0 20px;
+}
+
+.planet {
+    color: #d5e3d6;
+    font-size: 25px;
+    padding: 0 0 10px 22px;
+}
+
+
+}
