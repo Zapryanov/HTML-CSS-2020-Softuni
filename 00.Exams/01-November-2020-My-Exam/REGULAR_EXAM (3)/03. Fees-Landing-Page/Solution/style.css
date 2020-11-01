@@ -1,0 +1,264 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css");
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&family=Montserrat:wght@300;400;500;600;700&display=swap');
+
+
+body {
+    color: #54546d;
+    font-family: 'Lato', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Montserrat', sans-serif;
+}
+
+img {
+    width: 100%;
+}
+
+/* ----- Header ----- */
+
+header {
+    display: flex;
+    justify-content: center;
+    padding: 15px 0;
+    width: 100%;
+}
+
+.center-header {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    max-width: 1200px;
+    width: 85%;
+}
+
+.wrap-logo {
+    flex: 0 1 10%;
+}
+
+header nav {
+    display: flex;
+    flex: 0 1 30%;
+}
+
+header nav ul {
+    display: flex;
+    flex: 0 1 100%;
+    justify-content: space-between;
+}
+
+header a {
+    color: #54546d;
+    font-size: 13px;
+    font-weight: 600;
+}
+
+/* ----- Main ----- */
+
+main {
+    align-items: center;
+    display: flex;
+    flex-flow: column;
+    width: 100%;
+}
+
+/* ----- Section Fee ----- */
+
+.fee {
+    background-color: #54546d;
+    display: flex;
+    flex-flow: row wrap;
+    height: 500px;
+    justify-content: center;
+    width: 100%;
+}
+
+.fee h1 {
+    color: #ffffff;
+    flex: 1 0 100%;
+    font-size: 38px;
+    font-weight: 400;
+    margin: 45px 0 0 0;
+    text-align: center;
+}
+
+.wrap-each-course {
+    border-radius: 8px;
+    flex: 0 1 25%;
+    position: relative;
+    top: 50px;
+}
+
+.wrap-each-course:nth-of-type(2) {
+    margin: 0 20px;
+}
+
+.upper-container {
+    align-items: center;
+    background-color: #ffffff;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    display: flex;
+    flex-flow: column;
+    height: 260px;
+}
+
+.upper-container h2 {
+    padding: 30px 0 10px 0;
+}
+
+.upper-container p {
+    font-size: 13px;
+    letter-spacing: 1.1px;
+    padding: 10px 25px;
+    text-align: center;
+}
+
+.purple-btn {
+    background-color: #9a5dc6;
+    border-radius: 30px;
+    color: #ffffff;
+    cursor: pointer;
+    font-weight: bold;
+    margin: 50px 0 40px 0;
+    padding: 10px 20px;
+    text-transform: uppercase;
+}
+
+
+.lower-container {
+    align-items: center;
+    background-image: linear-gradient(to right, #049c3e, #4bd680);
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+    color: #ffffff;
+    display: flex;
+    flex-flow: column;
+}
+
+.lower-container.blue {
+    background-image: linear-gradient(to right, #4d6c89, #629ace);
+}
+
+.lower-container.like-purple {
+    background-image: linear-gradient(to right, #4b38a6, #8c7de1);
+}
+
+.price {
+    font-size: 22px;
+    padding: 20px 0;
+}
+
+.free {
+    letter-spacing: 1.1px;
+}
+
+.explanation {
+    padding-bottom: 20px;
+}
+
+.lower-container.double {
+    flex-flow: row;
+}
+
+.wrap-prices {
+    flex: 0 1 50%;
+    text-align: center;
+}
+
+.border-right {
+    position: relative;
+}
+
+.border-right::after {
+    background-color: #ffffff;
+    content: "";
+    width: 2px;
+    height: 70%;
+    display: inline-block;
+    position: absolute;
+    right: 0;
+    top: 20px;
+}
+
+/* ----- Section Descriptions ----- */
+
+.descriptions {
+    display: flex;
+    flex-flow: column;
+    margin: 100px;
+    width: 70%;
+}
+
+.descriptions h2 {
+    font-weight: 500;
+}
+
+.descriptions p {
+    padding: 20px 0 40px 0;
+}
+
+table {
+    background-color: #e6e6e6;
+}
+
+td {
+    padding: 10px;
+}
+
+table tr:nth-of-type(even) {
+    background-color: #f8f8f8;
+}
+
+table {
+    border-top-left-radius: 8px;
+}
+
+table > tbody > tr:nth-child(6) {
+    border-bottom-left-radius: 12px;
+}
+
+.fa-check {
+    color: green;
+}
+
+.fa-times {
+    color: red;
+}
+
+.post-bank {
+    align-items: center;
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between;
+    width: 90%;
+}
+
+.text-bank {
+    flex: 0 1 70%;
+    flex-flow: column;
+}
+
+.logo-bank {
+    flex: 0 1 20%;
+}
+
+.post-bank p.first {
+    padding: 10px 0 20px 0;
+}
+
+.post-bank p.second {
+    padding: 0 0 40px 0;
+}
+
+footer {
+    background-color: #54546d;
+    text-align: center;
+    width: 100%;
+}
+
+footer p {
+    color: #dad6d6;
+    padding: 20px 0;
+}
