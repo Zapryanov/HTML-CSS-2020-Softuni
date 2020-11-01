@@ -65,13 +65,13 @@ main {
 
 main::before {
     content: "";
-    position: absolute;
     background: url("../Requirements-and-Resources/images/calculator-icon.svg");
     background-size: cover;
     height: 300px;
-    width: 250px;
     left: -5%;
+    position: absolute;
     top: 140px;
+    width: 250px;
 }
 
 /* ----- Section Fee ----- */
